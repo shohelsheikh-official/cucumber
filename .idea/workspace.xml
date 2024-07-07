@@ -4,33 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83c018ff-fc3d-42a1-9597-80c3e818016d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/features/QKART.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/glue/Constants/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/glue/context/PageContextUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/glue/helpers/Interact.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/glue/pages/AdventureDetailsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/glue/pages/AdventurePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/glue/pages/HistoryPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/glue/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/glue/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/glue/pages/RegisterPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/glue/stepDefs/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/glue/util/DriverSingleton.java" afterDir="false" />
-    </list>
+    <list default="true" id="83c018ff-fc3d-42a1-9597-80c3e818016d" name="Changes" comment="Basic structure" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,32 +49,32 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2iuNwKkKUB4MqqOGHd6IgMlYPts" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Cucumber Java.Scenario: Successful LogIn with Valid Credentials.executor": "Run",
-    "Gradle.Build Cucumber_BDD.executor": "Run",
-    "Gradle.Cucumber_BDD [clean].executor": "Debug",
-    "JUnit.TestRunner.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "corretto-18",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/shohelsheikh/IdeaProjects/Cucumber_BDD/src/main",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Cucumber Java.Scenario: Successful LogIn with Valid Credentials.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build Cucumber_BDD.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Cucumber_BDD [clean].executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.TestRunner.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-18&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/shohelsheikh/IdeaProjects/Cucumber_BDD/src/main&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main" />
@@ -184,13 +158,17 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Basic structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Basic structure" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/glue/stepDefs/Login.java</url>
           <line>43</line>
-          <properties class="glue.stepDefs.Login" method="setupDriver">
+          <properties class="glue.stepDefs.Login">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -199,7 +177,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/glue/stepDefs/Login.java</url>
           <line>49</line>
-          <properties class="glue.stepDefs.Login" method="tearDown">
+          <properties class="glue.stepDefs.Login">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>

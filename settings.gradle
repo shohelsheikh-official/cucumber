@@ -1,4 +1,6 @@
 rootProject.name = 'Cucumber_BDD'
+
+include 'ZORDER'
 include 'QKART'
-include 'QKART'
+include 'QTRIP'
 
